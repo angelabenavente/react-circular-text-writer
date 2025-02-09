@@ -14,6 +14,7 @@ export interface ReactCircularTextWriterOptions {
   fontFamily?: MonospacedFont | 'customFont'; // Optional font family, can be one of the monospaced fonts or 'customFont'
   customFont?: string; // Optional custom font name if fontFamily is set to 'customFont'
   fontWeight?: number; // Optional font weight
+  fontSize?: number; // Optional font size
 }
 
 // Interface for the props accepted by the CircularTextWriter component

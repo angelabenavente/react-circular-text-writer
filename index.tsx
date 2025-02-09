@@ -61,7 +61,8 @@ const CircularTextWriter: React.FC<CircularTextWriterProps> = ({
               color: options.color || '#000000',
               fontFamily: fontFamily,
               fontWeight: options.fontWeight || 400,
-              lineHeight: 'normal'
+              lineHeight: 'normal',
+              fontSize: options.fontSize || 16
             }}
           >
             {letter}
