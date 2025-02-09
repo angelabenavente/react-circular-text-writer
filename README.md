@@ -69,7 +69,7 @@ import CircularTextWriter from 'react-circular-text-writer';
 import CircularTextWriter from 'react-circular-text-writer';
 
 <CircularTextWriter
-  text="This is a circular text"
+  text="This is a circular text "
   radius={150}
   id="react-circular-text-writer"
   options={{
@@ -79,6 +79,55 @@ import CircularTextWriter from 'react-circular-text-writer';
   }}
 />
 ```
+
+## Result
+
+<img width="397" alt="react-circular-text-writer" src="https://github.com/user-attachments/assets/21ea584f-371d-4396-af5c-7d911e8e7143" />
+
+
+### Long text example
+
+```
+import CircularTextWriter from 'react-circular-text-writer';
+
+<CircularTextWriter
+  text="This text is too long to test that it is possible to display it in a circular way as well. "
+  radius={150}
+  id="react-circular-text-writer"
+  options={{
+    color: "#ff0000", // red
+    fontFamily: "Menlo",
+    fontWeight: 700, // bold
+  }}
+/>
+```
+
+## Result
+
+<img width="397" alt="react-circular-text-writer-long-text" src="https://github.com/user-attachments/assets/65434dcd-fa53-46db-8b98-2be06f15e861" />
+
+
+### Small radius example
+
+```
+import CircularTextWriter from 'react-circular-text-writer';
+
+<CircularTextWriter
+  text="Small radius circle text "
+  radius={150}
+  id="react-circular-text-writer"
+  options={{
+    color: "#ff0000", // red
+    fontFamily: "Menlo",
+    fontWeight: 700, // bold
+  }}
+/>
+```
+
+## Result
+
+<img width="157" alt="react-circle-text-writer-small-radius" src="https://github.com/user-attachments/assets/0b838f17-593c-4c4d-9f63-1f490d9960ad" />
+
 
 ---
 
