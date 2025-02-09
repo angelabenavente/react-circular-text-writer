@@ -1,0 +1,67 @@
+{
+  "name": "react-circular-text-writer",
+  "description": "A JavaScript utility to arrange text in a circular shape using HTML and CSS. Supports monospaced fonts for better alignment.",
+  "version": "1.0.6",
+  "license": "MIT",
+  "homepage": "https://github.com/angelabenavente/react-circular-text-writer",
+  "author": "Ángela Benavente (https://github.com/angelabenavente)",
+  "repository": "angelabenavente/react-circular-text-writer",
+  "bugs": {
+    "url": "https://github.com/angelabenavente/react-circular-text-writer/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "eslint": "npx eslint --ext .js .",
+    "build": "npm run clean && npx tsup"
+
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": {
+      "import": "./dist/*.mjs",
+      "require": "./dist/*.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.8",
+    "eslint": "^9.19.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "react-circular-text",
+    "text-circle",
+    "text-layout",
+    "text-effect",
+    "circle-text",
+    "text-formatter",
+    "typography",
+    "monospace",
+    "font-layout",
+    "dom-manipulation",
+    "html-text",
+    "javascript",
+    "text-arrangement",
+    "text-shape",
+    "text-styling",
+    "css-transform",
+    "font-effect",
+    "letters-circle",
+    "utility",
+    "js"
+  ],
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}
