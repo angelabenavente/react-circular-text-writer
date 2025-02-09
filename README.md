@@ -128,6 +128,28 @@ import CircularTextWriter from 'react-circular-text-writer';
 
 <img width="157" alt="react-circle-text-writer-small-radius" src="https://github.com/user-attachments/assets/0b838f17-593c-4c4d-9f63-1f490d9960ad" />
 
+### Small font-size example
+
+```
+import CircularTextWriter from 'react-circular-text-writer';
+
+<CircularTextWriter
+  text="Circle text with 8px of font size "
+  radius={150}
+  id="react-circular-text-writer"
+  options={{
+    color: "#ff0000", // red
+    fontFamily: "Menlo",
+    fontWeight: 700, // bold
+    fontSize: 8,
+  }}
+/>
+```
+
+## Result
+
+<img width="157" alt="react-circle-text-writer-small-font-size" src="https://github.com/user-attachments/assets/c3bcb0d9-182d-4bdb-9b82-d61d19adf3d5" />
+
 
 ---
 
