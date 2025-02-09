@@ -1,7 +1,7 @@
 {
   "name": "react-circular-text-writer",
   "description": "A JavaScript utility to arrange text in a circular shape using HTML and CSS. Supports monospaced fonts for better alignment.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "homepage": "https://github.com/angelabenavente/react-circular-text-writer",
   "author": "Ángela Benavente (https://github.com/angelabenavente)",
